@@ -52,6 +52,17 @@ import Chart from "chart.js/auto";
         },
         tooltip: {
           backgroundColor: "hsl(25, 47%, 15%)",
+          callbacks: {
+            label: function (context) {
+              return "$" + context.raw;
+            },
+            title: function () {
+              return "";
+            },
+          },
+          bodyFont: {
+            size: 15,
+          },
         },
       },
       scales: {
@@ -80,6 +91,11 @@ import Chart from "chart.js/auto";
           },
           beginAtZero: true,
         },
+      },
+      onHover: (event, chartElement) => {
+        event.native.target.style.cursor = chartElement[0]
+          ? "pointer"
+          : "default";
       },
     },
   });

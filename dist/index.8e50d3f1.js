@@ -657,7 +657,18 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
                     display: false
                 },
                 tooltip: {
-                    backgroundColor: "hsl(25, 47%, 15%)"
+                    backgroundColor: "hsl(25, 47%, 15%)",
+                    callbacks: {
+                        label: function(context) {
+                            return "$" + context.raw;
+                        },
+                        title: function() {
+                            return "";
+                        }
+                    },
+                    bodyFont: {
+                        size: 15
+                    }
                 }
             },
             scales: {
@@ -686,6 +697,9 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
                     },
                     beginAtZero: true
                 }
+            },
+            onHover: (event, chartElement)=>{
+                event.native.target.style.cursor = chartElement[0] ? "pointer" : "default";
             }
         }
     });
