@@ -143,6 +143,7 @@ body {
 .header__balance {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .balance__details {
@@ -163,6 +164,10 @@ body {
   font-size: clamp(1.5rem, 3vw + 1rem, 2rem);
   line-height: clamp(1.5, 2vw + 1, 2);
   color: var(--white);
+}
+
+.header__logo {
+  height: 3rem;
 }
 
 .main {
