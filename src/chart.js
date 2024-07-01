@@ -1,11 +1,6 @@
-console.log("Script loaded");
-
-import Chart from "chart.js/auto";
-
-console.log("Chart.js imported");
+"use strict";
 
 (async function () {
-  console.log("Data script running");
   const data = [
     { day: "mon", amount: 17.45 },
     { day: "tue", amount: 34.91 },
