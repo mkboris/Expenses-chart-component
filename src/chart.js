@@ -90,6 +90,11 @@
           beginAtZero: true,
         },
       },
+      onHover: (event, chartElement) => {
+        event.native.target.style.cursor = chartElement[0]
+          ? "pointer"
+          : "default";
+      },
     },
   });
 
