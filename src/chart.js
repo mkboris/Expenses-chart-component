@@ -1,6 +1,6 @@
 console.log("Script loaded");
 
-import Chart from "chart.js/auto";
+import Chart from "../node_modules/chart.js/auto";
 
 console.log("Chart.js imported");
 
