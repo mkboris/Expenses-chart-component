@@ -585,7 +585,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"dF3Ha":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _auto = require("chart.js/auto");
+var _auto = require("../node_modules/chart.js/auto");
 var _autoDefault = parcelHelpers.interopDefault(_auto);
 console.log("Script loaded");
 console.log("Chart.js imported");
@@ -722,7 +722,7 @@ function animateTotalAmount(timestamp) {
 const startTime = new Date().getTime();
 requestAnimationFrame(animateTotalAmount);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","chart.js/auto":"d8NN9"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../node_modules/chart.js/auto":"d8NN9"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
