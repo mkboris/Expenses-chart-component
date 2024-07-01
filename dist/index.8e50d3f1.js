@@ -587,8 +587,10 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _auto = require("chart.js/auto");
 var _autoDefault = parcelHelpers.interopDefault(_auto);
-"use strict";
+console.log("Script loaded");
+console.log("Chart.js imported");
 (async function() {
+    console.log("Data script running");
     const data = [
         {
             day: "mon",
@@ -697,9 +699,6 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
                     },
                     beginAtZero: true
                 }
-            },
-            onHover: (event, chartElement)=>{
-                event.native.target.style.cursor = chartElement[0] ? "pointer" : "default";
             }
         }
     });

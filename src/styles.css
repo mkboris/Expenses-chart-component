@@ -185,7 +185,7 @@ body {
   font-size: clamp(1.5rem, 3vw + 1rem, 2rem);
   line-height: clamp(1.5, 2vw + 1, 2);
   color: var(--Dark-brown);
-  margin-bottom: 1.125rem;
+  margin-bottom: 3rem;
 }
 
 .chart__container {
