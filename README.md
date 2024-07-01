@@ -6,7 +6,6 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -30,10 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
-
-## My process
+- [Solution](https://github.com/mkboris/Expenses-chart-component)
+- [Live Site](https://expenses-chart-component-silk.vercel.app/)
 
 ### Built with
 
@@ -42,6 +39,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Chart.js
 
 ### What I learned
 
