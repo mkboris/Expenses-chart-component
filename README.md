@@ -35,31 +35,28 @@ Users should be able to:
 
 ## My process
 
-**Planning and Setup**:
+**Planning and Setup:**
 
 - Defined project requirements and objectives.
 - Set up the development environment with Parcel for bundling.
 
-**HTML and CSS**:
+**Implementation:**
 
-- Created the basic structure (`index.html`) and styled components (`styles.css`).
-- Ensured responsiveness and accessibility considerations.
+- Created the HTML structure for the chart and summary sections.
+- Styled components using CSS to achieve a clean and responsive layout.
+- Integrated Chart.js library to render the bar chart dynamically.
 
-**JavaScript Implementation**:
+**Functionality and Interactivity:**
 
-- Integrated Chart.js for data visualization (`chart.js`).
-- Implemented dynamic data fetching and rendering.
-- Added animations and interactivity for a better user experience.
+- Dynamically loaded data into the chart using JavaScript.
+- Implemented animations and transitions to enhance user experience.
+- Added interactive features like tooltips and hover effects on the chart.
 
-**Testing and Debugging**:
+**Final Touches:**
 
-- Conducted thorough testing across different devices and browsers.
-- Fixed issues related to chart rendering, data accuracy, and responsiveness.
-
-**Deployment**:
-
-- Deployed the project using Vercel.
-- Verified functionality and performance post-deployment.
+- Ensured accessibility by testing with screen readers and keyboard navigation.
+- Optimized performance and responsiveness across various devices.
+- Deployed the project to Vercel for live testing and demonstration.
 
 ### Built with
 
