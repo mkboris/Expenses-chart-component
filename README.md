@@ -30,7 +30,6 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/mkboris/Expenses-chart-component)
 - [Live Site](https://expenses-chart-component-silk.vercel.app/)
 
 ## My process
@@ -81,4 +80,5 @@ In future projects, I plan to:
 
 ## Author
 
-- Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
+- Frontend Mentor - [makogeboris](https://www.frontendmentor.io/profile/makogeboris)
+- Twitter - [makogeboris](https://x.com/makogeboris)
